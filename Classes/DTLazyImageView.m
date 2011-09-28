@@ -17,6 +17,9 @@
 
 static DTCache *_imageCache = nil;
 
+@interface DTLazyImageView()
+- (void)notify;
+@end
 
 @implementation DTLazyImageView
 @synthesize delegate=_delegate;

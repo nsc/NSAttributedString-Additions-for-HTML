@@ -128,9 +128,7 @@ NSString *DTDefaultListIndent = @"DTDefaultListIndent";
 	// for performance we will return this mutable string
 	NSMutableAttributedString *tmpString = [[NSMutableAttributedString alloc] init];
 	
-#if ALLOW_IPHONE_SPECIAL_CASES
 	CGFloat nextParagraphAdditionalSpaceBefore = 0.0;
-#endif
 	BOOL needsListItemStart = NO;
 	BOOL needsNewLineBefore = NO;
 	

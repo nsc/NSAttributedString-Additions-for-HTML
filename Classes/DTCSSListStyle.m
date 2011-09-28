@@ -298,6 +298,7 @@
 		case DTCSSListStyleTypeImage:
 		{
 			token = UNICODE_OBJECT_PLACEHOLDER;
+            break;
 		}
 		case DTCSSListStyleTypeCircle:
 		{
